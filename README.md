@@ -15,7 +15,7 @@ Run the script from your terminal:
 python generate.py
 ```
 
-You'll be prompted to enter a grid size and the number of bombs. You can also just press Enter to use the defaults (8x8 grid with 3 bombs).
+You'll be prompted to enter a grid size and the number of bombs. You can also just press Enter to use the defaults (7x7 grid with 6 bombs).
 
 ### Example
 
@@ -24,8 +24,8 @@ $ python generate.py
 Discord Minesweeper Generator
 Press Enter without typing anything to use default values.
 
-Grid size (square, default 8): 5
-Number of bombs (default 3): 4
+Grid size (square, default 7): 5
+Number of bombs (default 6): 4
 
 Generated minesweeper grid:
 
