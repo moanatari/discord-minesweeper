@@ -41,3 +41,9 @@ A copy has also been saved in 'minesweeper.txt'.
 ```
 
 The script prints the grid to the console so you can copy and paste it directly into Discord. It also saves a copy in `minesweeper.txt` just in case.
+
+1️⃣ 1️⃣ 1️⃣ ⬜ ⬜  
+1️⃣ 💣 2️⃣ 2️⃣ 1️⃣  
+2️⃣ 3️⃣ 💣 2️⃣ 💣  
+2️⃣ 💣 3️⃣ 2️⃣ 1️⃣  
+1️⃣ 1️⃣ 1️⃣ ⬜ ⬜  
