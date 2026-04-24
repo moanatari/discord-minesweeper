@@ -1,6 +1,6 @@
 import random
 
-def generate_minesweeper(size=8, num_bombs=3):
+def generate_minesweeper(size=7, num_bombs=6):
     rows = size
     cols = size
     
@@ -58,21 +58,21 @@ if __name__ == "__main__":
     print("Discord Minesweeper Generator")
     print("Press Enter without typing anything to use default values.\n")
     
-    size_input = input("Grid size (square, default 8): ")
-    size = 8
+    size_input = input("Grid size (square, default 7): ")
+    size = 7
     if size_input.strip():
         try:
             size = int(size_input)
         except ValueError:
-            print("Invalid input, using default size (8).")
+            print("Invalid input, using default size (7).")
             
-    bombs_input = input("Number of bombs (default 3): ")
-    num_bombs = 3
+    bombs_input = input("Number of bombs (default 6): ")
+    num_bombs = 6
     if bombs_input.strip():
         try:
             num_bombs = int(bombs_input)
         except ValueError:
-            print("Invalid input, using default number (3).")
+            print("Invalid input, using default number (6).")
             
     max_bombs = size * size
     if num_bombs > max_bombs:
